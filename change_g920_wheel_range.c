@@ -13,8 +13,6 @@ int main (int argc, char *argv[])
 	struct udev_device *p_dev;
 	int range;
 
-	char const *range_path;
-
 	/* Check that an integer argument was passed and is between 40 and 900. */
 	if (argc != 2) {
 		printf("Please pass a wheel range as parameter between 40 and 900\n");
